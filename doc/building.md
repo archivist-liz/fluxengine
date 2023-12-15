@@ -202,11 +202,8 @@ well, although on Windows it'll need MSYS2 and mingw32. You'll need to
 install some support packages.
 
   - For Linux with Ubuntu/Debian:
-	`libusb-1.0-0-dev`, `libsqlite3-dev`, `zlib1g-dev`,
-	`libudev-dev`, `protobuf-compiler`, `libwxgtk3.0-gtk3-dev`,
-	`libfmt-dev`, `python3`.
+	sudo apt-get install libusb-1.0-0-dev libsqlite3-dev zlib1g-dev libudev-dev protobuf-compiler libwxgtk3.0-gtk3-dev libfmt-dev
   - For Linux with Fedora/Red Hat:
-    `git`, `make`, `gcc`, `gcc-c++`, `xxd`, `protobuf-compiler`,
     `protobuf-devel`, `fmt-devel`, `systemd-devel`, `wxGTK3-devel`,
     `libsqlite3x-devel`
   - For OSX with Homebrew: `libusb`, `pkg-config`, `sqlite`,
